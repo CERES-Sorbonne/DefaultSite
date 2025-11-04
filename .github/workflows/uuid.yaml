@@ -3,7 +3,8 @@ name: Add UUID to New Files
 on:
   push:
     branches:
-      - main  # Modifie selon la branche sur laquelle tu veux que l'action se déclenche
+      - master
+      - main
 
 jobs:
   add_uuid:
