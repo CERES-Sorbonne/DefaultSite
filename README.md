@@ -1,7 +1,7 @@
 # Comment créer son site ?
 
 1. Tout d'abord avoir un compte Github.
-2. Ensuite créer un fork de ce repository. 
+2. Ensuite créer un fork de ce repository en gardant le nom original. 
 3. Le cloner, changer les fichiers csv et les photos dans scripts/inputs pour correspondre à votre site.
 4. Lancer la commande python init_from_csv.py
 5. Dans /scripts/resources changer les fichiers désirés:
@@ -12,5 +12,5 @@
   e. siteConfig.json pour le titre du site   
 7. Add, commit et push vers github. 
 8. Renommer le répertoire github <votre_nom_d'utilisateur>.github.io 
-9. Aller dans actions, choisir "Mettre le site en ligne", appuyer sur Run
+9. Aller dans actions, choisir "Mettre le site en ligne", appuyer sur Run (il est possible qu'il faille cliquer sur le bouton pour activer les workflows avant)
 10. Votre site devrait être en ligne sur <votre_nom_d'utilisateur>.github.io 
